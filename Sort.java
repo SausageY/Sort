@@ -71,6 +71,8 @@ public class Sort {
                         Integer temp=List.get(rightpos);
                         List.set(rightpos,List.get(leftpos));
                         List.set(leftpos,temp);
+                        leftpos++;
+                        rightpos--;
                     }else {
                         rightpos--;
                     }
